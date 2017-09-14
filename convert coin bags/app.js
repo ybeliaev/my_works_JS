@@ -19,4 +19,4 @@ function coinsToAmount(obj) {
   return sum
 }
 
-console.log(coinsToAmount(coins)) // 1 ($)
+console.log(coinsToAmount(coins)) 
