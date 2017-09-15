@@ -5,8 +5,7 @@ const arrCoins = [50, 25, 10, 5, 2, 1];
 const objCoins = {};
 
 function amountToCoins(num){
-  
-  for(let i = 0; i < arrCoins.length; i++){
+    for(let i = 0; i < arrCoins.length; i++){
     if(num >= arrCoins[i]){
       let int = Math.floor(num / arrCoins[i]);
       objCoins[arrCoins[i]] = int;
@@ -16,7 +15,6 @@ function amountToCoins(num){
       }
       return objCoins;
     }
-    
   }
   
 }//amountToCoins
